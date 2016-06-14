@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+<h1> Type in a Date, Username and Correct Password</h1>
+	<form id="form" method="post">
+		<label for="date">Date</label>
+		<input type="text" name="date" id="date">
+		<label for="username">Username</label>
+		<input type="text" name="username" id="username">
+		<label for="password">Password</label>   
+		<input type="password" name="password" id="password">
+		<input type="button" onclick="validate()" value="submit" id="submit">	
+	</form>
+
+	<h2 id="user_type"> You typed a...</h2>
+	<form id="new_form" method="post">
+	<input type="text" oninput="press()" id="output">
+
+	
+<script src="main.js"> </script>
+</body>
+</html>
